@@ -15,7 +15,7 @@ export class DataManager {
         this.table = "GameInfo";
 
         this.connection = mysql.createConnection({
-            host: '144.168.60.251',
+            host: '127.0.0.1',
             user: 'root',
             database: 'gameInfo',
             port: 3306,
